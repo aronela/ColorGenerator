@@ -1,0 +1,60 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js dev
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Ruby24-x64\bin;C:\Users\Aronela\AppData\Local\Microsoft\WindowsApps;C:\Users\Aronela\AppData\Local\Yarn\bin;C:\Users\Aronela\AppData\Roaming\npm
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.10.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "ColorGeneratorB",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+      "bootstrap": "^4.1.0",
+      "jquery": "^3.3.1",
+      "node-sass": "^4.8.3",
+      "popper.js": "^1.14.3",
+      "sass-loader": "^7.0.1",
+      "vue": "^2.5.16",
+      "webpack": "^4.6.0",
+      "webpack-cli": "^2.0.15",
+      "css-loader": "^0.28.11",
+      "style-loader": "^0.20.3"
+    },
+    "scripts": {
+      "dev": "webpack --mode development",
+      "build": "webpack --mode production"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 1
+  Command: C:\WINDOWS\system32\cmd.exe
+  Arguments: /d /s /c webpack --mode development
+  Directory: C:\Users\Aronela\WebstormProjects\ColorGeneratorB
+  Output:
+  
+      at ProcessTermError.MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at new ProcessTermError (C:\Program Files (x86)\Yarn\lib\cli.js:226:113)
+      at ChildProcess.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:30281:17)
+      at emitTwo (events.js:126:13)
+      at ChildProcess.emit (events.js:214:7)
+      at maybeClose (internal/child_process.js:925:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
